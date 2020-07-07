@@ -34,6 +34,8 @@ namespace Synercoding.FormsAuthentication.Encryption
                     return CryptoAlgorithms.CreateAes;
                 case EncryptionMethod.TripleDES:
                     return CryptoAlgorithms.CreateTripleDES;
+                case EncryptionMethod.DES:
+                    return CryptoAlgorithms.CreateDES;
                 default:
                     throw new InvalidDataException();
             }

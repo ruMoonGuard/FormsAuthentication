@@ -3,6 +3,7 @@
     public enum EncryptionMethod
     {
         AES,
-        TripleDES
+        TripleDES,
+        DES
     }
 }

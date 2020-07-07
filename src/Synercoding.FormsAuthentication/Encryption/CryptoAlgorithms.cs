@@ -50,5 +50,9 @@ namespace Synercoding.FormsAuthentication.Encryption
             return TripleDES.Create();
         }
 
+        internal static DES CreateDES()
+        {
+            return DES.Create();
+        }
     }
 }
